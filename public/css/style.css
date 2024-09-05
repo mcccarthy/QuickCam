@@ -140,7 +140,7 @@ body {
 }
 
 .personal_code_input {
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	background: rgba(196, 196, 196, 0.2);
 	backdrop-filter: blur(80px);

@@ -112,9 +112,35 @@
 							<img src="./utils/Images/hangUp.png " alt="hangup image" />
 						</button>
 					</div>
+					<div class="video_recording_buttons_container display_none" id="video_recording_buttons">
+						<button id="pause_recording_button">
+							<img src="./utils/Images/pause.png" alt="pause button image" />
+						</button>
+						<button id="resume_recording_button " class="display_none">
+							<img src="./utils/Images/resume.png" alt="pause button image" />
+						</button>
+						<button id="stop_recording_button">Stop Recording</button>
+					</div>
 				</div>
 			</div>
-			<div class="messenger_container"></div>
+			<div class="messenger_container">
+				<div class="messages_container" id="messages_container"></div>
+				<div class="new_message_container display_none" id="new_message">
+					<input
+						type="text"
+						placeholder="Type your message..."
+						class="new_message_input"
+						id="new_message_input"
+					/>
+					<button class="send_message_button" id="send_message_button">
+						<img
+							src="./utils/Images/sendMessageButton.png"
+							alt="send button image"
+							class="send_message_button_image"
+						/>
+					</button>
+				</div>
+			</div>
 		</div>
 
 		<script src="/socket.io/socket.io.js"></script>
